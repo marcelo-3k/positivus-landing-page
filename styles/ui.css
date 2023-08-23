@@ -113,10 +113,12 @@
 }
 
 .label.green-label {
+  color: var(--dark-color);
   background: var(--primary-color);
 }
 
 .label.light-label {
+  color: var(--dark-color);
   background: var(--light-color);
 }
 
