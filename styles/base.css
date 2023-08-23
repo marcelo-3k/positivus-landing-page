@@ -91,9 +91,15 @@ p, li, a, input, button, textarea, select, span {
   }
 }
 
+section {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
 .container {
   width: 100%;
   max-width: 1304px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
