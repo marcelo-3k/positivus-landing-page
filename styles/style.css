@@ -113,7 +113,7 @@
   color: var(--light-color);
 }
 
-.card-text{
+.card-text {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -155,4 +155,128 @@
   top: 50%;
   left: 0;
   translate: 0 -50%;
+}
+
+.case-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.case-text {
+  display: flex;
+  align-items: start;
+  gap: 2.5rem;
+}
+
+.case-text p {
+  max-width: 580px;
+}
+
+.case-block {
+  padding: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+
+  border-radius: 3rem;
+  color: var(--light-color);
+  background-color: var(--dark-color);
+}
+
+.case-block .case {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.case-block .case a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--primary-color);
+}
+
+.case-block .separator {
+  width: 1px;
+  height: 200px;
+  background: var(--light-color);
+}
+
+.working-accordion {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+
+.working-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.working-content .working-text {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.working-text p {
+  max-width: 292px;
+}
+
+.accordion-item {
+  width: 100%;
+  height: 182px;
+  padding: 2.5rem 4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+
+  border-radius: 3rem;
+  border: 1px solid var(--dark-color);
+  box-shadow: 0px 5px 0px 0px #191A23;
+  background-color: var(--gray-color);
+
+  overflow-y: hidden;
+}
+
+.accordion-item.active {
+  height: 100%;
+  background-color: var(--primary-color);
+}
+
+.accordion-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-ask {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  color: var(--dark-color);
+}
+
+.accordion-ask span {
+  display: block;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.accordion-ask p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.accordion-item .accordion-answer {
+  max-height: 100%;
+  padding-top: 2rem;
+  border-top: 1px solid var(--dark-color);
 }
