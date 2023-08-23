@@ -1,0 +1,146 @@
+.plus-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 999px;
+  background-color: var(--gray-color);
+  border: 1px solid var(--dark-color);
+}
+
+.plus-icon span {
+  display: block;
+  width: 1.25rem;
+  height: 0.32rem;
+  background-color: var(--dark-color);
+
+  position: relative;
+}
+
+.plus-icon span::after {
+  content: '';
+  display: block;
+  width: 0.32rem;
+  height: 1.25rem;
+  background-color: var(--dark-color);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+.minus-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 999px;
+  background-color: var(--gray-color);
+  border: 1px solid var(--dark-color);
+}
+
+.minus-icon span {
+  display: block;
+  width: 1.25rem;
+  height: 0.32rem;
+  background-color: var(--dark-color);
+}
+
+.primary-button {
+  width: fit-content;
+  padding: 1.25rem 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.875rem;
+  background-color: var(--dark-color);
+
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: var(--light-color);
+}
+
+.secondary-button {
+  width: fit-content;
+  padding: 1.25rem 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.875rem;
+  background-color: transparent;
+
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.tertiary-button {
+  width: fit-content;
+  padding: 1.25rem 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.875rem;
+  background-color: var(--primary-color);
+
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.label {
+  width: fit-content;
+  height: auto;
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.4375rem;
+}
+
+.label.green-label {
+  background: var(--primary-color);
+}
+
+.label.light-label {
+  background: var(--light-color);
+}
+
+.label.dark-label {
+  background: var(--dark-color);
+  color: var(--light-color);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: inherit;
+}
+
+.link span {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: inherit;
+}
+
+.link span.light {
+  color: var(--light-color);
+}
+
+.link span.dark {
+  color: var(--dark-color);
+}

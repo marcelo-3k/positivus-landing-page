@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+:root {
+  --primary-color: #B9FF66;
+  --dark-color: #191A23;
+  --gray-color: #F3F3F3;
+  --light-color: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 500;
+  color: inherit;
+  line-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.6875rem;
+  }
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: inherit;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2.25rem;
+  }
+}
+
+h3 {
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: inherit;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 1.625rem;
+  }
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: inherit;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 1.125rem;
+  }
+}
+
+p, li, a, input, button, textarea, select, span {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: inherit;
+  line-height: 160%;
+}
+
+@media screen and (max-width: 768px) {
+  p, li, a, input, button, textarea, select, span {
+    font-size: 1rem;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1304px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
