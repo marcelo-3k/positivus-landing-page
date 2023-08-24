@@ -18,6 +18,65 @@
   gap: 2.5rem;
 }
 
+.header-nav .hamburguer {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: .5rem;
+
+  display: none;
+}
+
+.header-nav .hamburguer span {
+  width: 100%;
+  height: 2px;
+
+  display: block;
+
+  background: var(--dark-color);
+
+  position: relative;
+}
+
+.header-nav .hamburguer span::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: var(--dark-color);
+  display: block;
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+}
+
+.header-nav .hamburguer span::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: var(--dark-color);
+  display: block;
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+}
+
+@media screen and (max-width: 1124px) {
+  .header {
+    padding: 2rem 0;
+  }
+  
+  .header-nav .logo {
+    width: 144px;
+  }
+
+  .header-nav ul {
+    display: none;
+  }
+
+  .header-nav .hamburguer {
+    display: block;
+  }
+}
+
 .hero-content {
   display: flex;
   justify-content: space-between;
