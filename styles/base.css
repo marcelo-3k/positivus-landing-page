@@ -40,23 +40,11 @@ h1 {
   line-height: 100%;
 }
 
-@media screen and (max-width: 1124px) {
-  h1 {
-    font-size: 2.6875rem;
-  }
-}
-
 h2 {
   font-size: 2.5rem;
   font-weight: 500;
   color: inherit;
   line-height: 120%;
-}
-
-@media screen and (max-width: 1124px) {
-  h2 {
-    font-size: 2.25rem;
-  }
 }
 
 h3 {
@@ -66,12 +54,6 @@ h3 {
   line-height: 130%;
 }
 
-@media screen and (max-width: 1124px) {
-  h3 {
-    font-size: 1.625rem;
-  }
-}
-
 h4 {
   font-size: 1.25rem;
   font-weight: 500;
@@ -79,23 +61,11 @@ h4 {
   line-height: 150%;
 }
 
-@media screen and (max-width: 1124px) {
-  h4 {
-    font-size: 1.125rem;
-  }
-}
-
 p, li, a, input, button, textarea, select, span {
   font-size: 1.125rem;
   font-weight: 400;
   color: inherit;
   line-height: 160%;
-}
-
-@media screen and (max-width: 1124px) {
-  p, li, a, input, button, textarea, select, span {
-    font-size: 1rem;
-  }
 }
 
 section {
@@ -109,4 +79,31 @@ section {
   margin: 0 auto;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+@media screen and (max-width: 1124px) {
+  h1 {
+    font-size: 2.6875rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 1.625rem;
+  }
+
+  h4 {
+    font-size: 1.125rem;
+  }
+
+  p, li, a, input, button, textarea, select, span {
+    font-size: 1rem;
+  }
+
+  section {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
 }

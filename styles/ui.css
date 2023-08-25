@@ -129,13 +129,20 @@
 .label {
   width: fit-content;
   height: auto;
-  padding: 0.125rem 0.5rem;
-  border-radius: 0.4375rem;
+  display: flex;
 }
 
-.label.green-label {
+.label h2 + h2 {
+  display: block;
+}
+
+.label.green-label h2{
+  width: fit-content;
+  padding: 0.125rem 0.5rem;
+
   color: var(--dark-color);
   background: var(--primary-color);
+  border-radius: 0.4375rem;
 }
 
 .label.light-label {
@@ -197,4 +204,25 @@ input[type="radio"]:checked:before {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
+}
+
+@media screen and (max-width: 1124px) {
+  .plus-icon,
+  .minus-icon {
+    width: 2rem;
+    min-width: 2rem;
+    height: 2rem;
+    min-height: 2rem;
+  }
+
+  .plus-icon span,
+  .minus-icon span {
+    width: 1rem;
+    height: 0.16rem;
+  }
+
+  .plus-icon span::after {
+    width: 0.16rem;
+    height: 1rem;
+  }
 }
